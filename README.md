@@ -1,7 +1,5 @@
 # Proyek-Analisis-Data-Bike-Sharing
 
-## Project Overview
-
 ## How to Run Dashboard
 1. Clone the Repository
    ```bash
@@ -23,7 +21,8 @@
     streamlit run dashboard.py
    
 ## Data
-The dataset used in this project contains hourly air quality measurements from 12 stations in Beijing. You can find the data files in the data directory.
+The dataset used in this project contains Bike-sharing rental data that correlated to the environmental and seasonal settings. For instance, weather conditions,
+precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. You can find the data files in the data directory.
 
 ## Author
 - **Nama:** Nadya Prita Ramadhani
