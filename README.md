@@ -4,16 +4,17 @@
 
 ## How to Run Dashboard
 1. Clone the Repository
+   ''bash
    git clone https://github.com/nadyapriitaaa/Proyek-Analisis-Data-Bike-Sharing.git
-2. Navigate to the Project Directory
+3. Navigate to the Project Directory
    cd Proyek-Analisis-Data-Bike-Sharing
-3. Create a Virtual Environment
+4. Create a Virtual Environment
    python -m conda .conda 
-4. Activate the Virtual Environment
+5. Activate the Virtual Environment
    .conda\Scripts\activate
-5. Install Required Libraries
+6. Install Required Libraries
    pip install -r requirements.txt 
-6. Run the Streamlit App
+7. Run the Streamlit App
     streamlit run dashboard.py
    
 ## Data
