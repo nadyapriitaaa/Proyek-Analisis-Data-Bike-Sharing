@@ -2,8 +2,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-hour_df = pd.read_csv('hour.csv')
-day_df = pd.read_csv('day.csv')
+data_path = r"data"
+
+data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
+
+hour_df = pd.read_csv(os.path.join(data_dir, 'hour.csv'))
+day_df = pd.read_csv(os.path.join(data_dir, 'day.csv'))
 
 # --- Streamlit dashboard ---
 st.title("Analisis Data Bike Sharing")
