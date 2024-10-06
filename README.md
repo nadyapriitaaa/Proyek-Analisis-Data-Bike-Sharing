@@ -30,4 +30,5 @@ precipitation, day of week, season, hour of the day, etc. can affect the rental 
 - **ID Dicoding:** nadya_prita
 
 ## Demo
+you can check this out ```bash https://lr5o5jdnkcneehkabtb9fc.streamlit.app/
 
